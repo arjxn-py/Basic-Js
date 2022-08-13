@@ -28,3 +28,24 @@
 
 // console.log("Hello"+"World");
 
+// Swapping Two Numbers
+// var a = 20;
+// var b = 30;
+// var c;
+// c = b;
+// b = a;
+// a = c;
+// console.log(a);
+// console.log(b);
+
+
+// // Swapping Two variables without using third variable
+// var a = 20;
+// var b = 30;
+
+// a = a + b; //a = 50
+// b = a - b; //b = 20
+// a = a - b; //a = 30
+
+// console.log(a);
+// console.log(b);

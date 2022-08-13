@@ -120,3 +120,17 @@
 //     console.log("8 * "+n + " = " + n*8);
 // }
 
+
+// ********************** Functions **************************
+
+// function sum(a , b) {
+//     var a , b;
+//     console.log("Sum = " , a+b);
+// }
+// sum(4,6)
+
+// total = function(a , b){
+//     return a + b;
+// }
+// console.log(total(5,6)); 
+// console.log(total); 

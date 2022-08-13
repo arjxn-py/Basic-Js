@@ -20,3 +20,11 @@
 // console.log(true + true);
 // console.log(true+false);
 // console.log(false - true);
+// console.log(NaN === NaN);
+
+// a = 15;
+// console.log(++a);
+// console.log(typeof(a));
+
+// console.log("Hello"+"World");
+

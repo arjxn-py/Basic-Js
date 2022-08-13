@@ -100,7 +100,7 @@
 
 // Loops
 
-// while loop
+// // while loop
 
 // var n = 1;
 // while (n<=10) {
@@ -115,13 +115,14 @@
 //     n++;
 // }while (n<=10)
 
-// for loop 
+// // for loop 
+
 // for(n = 1; n <=10 ; n++){
 //     console.log("8 * "+n + " = " + n*8);
 // }
 
 
-// ********************** Functions **************************
+// // ********************** Functions **************************
 
 // function sum(a , b) {
 //     var a , b;
@@ -134,3 +135,45 @@
 // }
 // console.log(total(5,6)); 
 // console.log(total); 
+
+// // *****************   ECMA Script   ****************
+
+
+// let & const are block level elements while var is an element with global scope
+
+
+// let name = "Arjun";
+// if (true) {
+//     let surname = "Verma";
+//     console.log(name);
+//     console.log(surname);
+// }
+// console.log(surname);             // wil show error
+
+
+// Template Literals   ::: Formatted String
+
+
+// for(n = 1; n <=10 ; n++){
+//     // console.log("8 * "+n + " = " + n*8);
+//     console.log(`8 * ${n} = ${8*n}`);
+// }
+
+
+// // default parameters
+
+// product = function(a , b = 1){
+//     return a*b;
+// }
+// console.log(product(3,4));   //   12
+// console.log(product(3));     //   3
+
+// // fat arrow function (Cannot call a function before definition)
+
+// // console.log(product(5,4));  //  will show error.
+
+// const product = (a,b) => {
+//     return `The product of given two numbers is ${a*b}`;
+// }
+// console.log(product(5,4));
+

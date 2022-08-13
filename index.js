@@ -49,3 +49,74 @@
 
 // console.log(a);
 // console.log(b);
+
+// var year = 2100;
+
+// if(year%4 == 0 && year%100 != 0){
+//     console.log("Yes");
+// }
+// else if(year%4 == 0 && year%100 == 0 && year%400 != 0){
+//     console.log("No");
+// }
+// else if(year%4 == 0 && year%400 == 0){
+//     console.log("Yes");
+// }
+// else{
+//     console.log("No");
+// }
+
+// // Falsy Values
+// if(n = true){
+//     console.log("hue hue hue");
+// }
+// else{
+//     console.log("sup");
+// }
+
+// //Ternary Operators
+// var age = 19;
+// console.log((age>=18)? "Can Vote":"Cant Vote");
+
+// // Switch Case
+// var area = 'rectangle';
+// var pi = 3.14 , l = 5 , b = 4 , r = 7;
+
+// switch (area) {
+//     case 'circle':
+//         console.log("The area of Circle is : " + pi*r**2 + " metre square");
+//         break;
+//     case 'triangle':
+//         console.log("The area of Triangle is : " + (l*b)/2 + " metre square");
+//         break;
+//     case 'rectangle':
+//         console.log("The area of Rectangle is : " + l*b + " metre square");
+//         break;
+
+//     default:
+//         console.log("Please Enter Valid Data");
+//         break;
+// }
+
+
+// Loops
+
+// while loop
+
+// var n = 1;
+// while (n<=10) {
+//     console.log(n*8);
+//     ++n;
+// }
+
+// // do while loop
+// var n = 1;
+// do{
+//     console.log(n + " * 8 = "+ n*8);
+//     n++;
+// }while (n<=10)
+
+// for loop 
+// for(n = 1; n <=10 ; n++){
+//     console.log("8 * "+n + " = " + n*8);
+// }
+

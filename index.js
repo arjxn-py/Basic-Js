@@ -12,7 +12,11 @@
 
 // console.log(typeof(myAge));
 
-console.log(10 + "20");
-console.log(9 - "5");
-console.log("Java" + "Script");
-console.log(" " + " ");
+// console.log(10 + "20");
+// console.log(9 - "5");
+// console.log("Java" + "Script");
+// console.log(" " + " ");
+// console.log("Arjun" - "Verma");
+// console.log(true + true);
+// console.log(true+false);
+// console.log(false - true);

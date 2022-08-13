@@ -177,3 +177,6 @@
 // }
 // console.log(product(5,4));
 
+// // ***************  Single Line Function with Fat Arrow ****************
+// const product = (a,b) => `The product of given two numbers is ${a*b}`
+// console.log(product(4,8));

@@ -241,3 +241,15 @@
 // includes()     ...  returns boolean value
 // console.log(myNames.includes("Rohit"));
 // console.log(myNames.includes("AAA"));
+
+
+
+// // filtering in Arrays
+
+// const nums = [100,400,300,200,600];
+// // const found = nums.find((element,index,array) => {
+// //     return element<400;
+// // })
+
+// const found = nums.filter((elements, index , array)=>{return elements<400;})
+// console.log(found);

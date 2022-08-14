@@ -227,3 +227,17 @@
 // brother.forEach((element,index,array) => {
 //     console.log(element + " is at " + index + " Index");
 // });
+
+// ********** Operations on Arrays **********
+
+// const myNames = ["Arjun","Nakul","Rohit","Verma","Nakul"];
+
+// indexof() 
+// console.log(myNames.indexOf("Nakul" , 0));
+
+// lastIndexOf()  ...  returns index from last
+// console.log(myNames.lastIndexOf("Nakul",3));
+
+// includes()     ...  returns boolean value
+// console.log(myNames.includes("Rohit"));
+// console.log(myNames.includes("AAA"));

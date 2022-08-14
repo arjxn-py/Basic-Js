@@ -211,3 +211,19 @@
 // for(let i of brother){
 //     console.log(i);
 // }
+
+// foreach loop
+// let brother = ['Arjun','Nakul','Rohit'];
+
+
+// Traditional Foreach
+
+// brother.forEach(function(element,index,array){
+//     console.log(element + " is at " + index + " Index");
+// })
+
+// Foreach using fat arrow
+
+// brother.forEach((element,index,array) => {
+//     console.log(element + " is at " + index + " Index");
+// });

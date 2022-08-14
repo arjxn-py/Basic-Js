@@ -180,3 +180,34 @@
 // // ***************  Single Line Function with Fat Arrow ****************
 // const product = (a,b) => `The product of given two numbers is ${a*b}`
 // console.log(product(4,8));
+
+// *************************** ARRAYS ******************************
+// let brother = ['Arjun','Nakul','Rohit'];
+// console.log(brother[0]);
+
+// // length property of an array
+// console.log(brother.length);            // 3
+
+
+
+// Traversing the array through for loop
+
+// ***********            for  || for..in || for..of     loop ***********
+
+// let brother = ['Arjun','Nakul','Rohit'];
+
+// // for loop
+// for (let i = 0; i < brother.length; i++) {
+//     const element = brother[i];
+//     console.log(element);
+// }
+
+// // for in loop
+// for(let i in brother){
+//     console.log(i);
+// }
+
+// // for of loop 
+// for(let i of brother){
+//     console.log(i);
+// }

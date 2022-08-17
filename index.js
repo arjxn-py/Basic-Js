@@ -244,7 +244,7 @@
 
 
 
-// // filtering in Arrays
+// // filtering in Arrays     // array.find(()=>{})
 
 // const nums = [100,400,300,200,600];
 // // const found = nums.find((element,index,array) => {
@@ -253,3 +253,26 @@
 
 // const found = nums.filter((elements, index , array)=>{return elements<400;})
 // console.log(found);
+
+// // Sorting in Arrays       // sort()     *** Does function correctly on strings
+// const nums = [100,400,300,200,600];
+// console.log(nums.sort());
+
+// const alphas = ["a","y","e","p","v","k","c","u","g","h"]
+// console.log(alphas.sort());
+
+// // Modifying Arrays
+// const months = ["Jan","March","April","June","July"];
+// console.log(months);
+
+// // months.push("Dec");
+// // console.log(months);
+
+
+// const months = ["Jan","march","April","June","July"];
+// console.log(months.sort());
+
+
+// // *********  sort() doesnt produce correct results with integers
+// const numbers = [ 1 , 3 , 100 , 460 , 1000 , 3000 , 70];
+// console.log(numbers.sort());

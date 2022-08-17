@@ -276,3 +276,36 @@
 // // *********  sort() doesnt produce correct results with integers
 // const numbers = [ 1 , 3 , 100 , 460 , 1000 , 3000 , 70];
 // console.log(numbers.sort());
+
+
+// ******************* CRUD - Create , Read , Update & Delete in Javascript ******************
+
+// push and pop
+// push(x) to enter an element at last index and pop() to delete an element at the last index
+
+// const animals = ["pigs","goat","sheep"];
+// console.log(animals);
+// let a = animals.push("chicken");
+// console.log(animals);
+// console.log(a);            // pop(x) returns the updated length of an array  
+// let b = animals.pop();
+// console.log(animals);
+// console.log(b);            // pop() returns the deleted element.
+// animals.pop();
+// console.log(animals);
+// animals.push("cats","dogs");
+// console.log(animals);        // can also add multiple elements with push
+
+
+// shift and unshift
+// shift() to delete an element from first index and unshift() to add an element at the first index
+
+// const animals = ["pigs","goat","sheep"];
+
+// let a = animals.shift();
+// console.log(animals);
+// console.log(a);          // returns the deleted element
+
+// let a = animals.unshift("chicken");
+// console.log(animals);
+// console.log(a);             // returns the length of the updated array

@@ -378,10 +378,23 @@
 
 // let arr = [25,36,49,64,81];
 
-// // to find out the square roots of the elements in the given array
+// // P.S - to find out the square roots of the elements in the given array
 
 // let sqrt = arr.map((element , index , array)=>{
 //     return element**0.5;
 // });
 
 // console.log(sqrt);            // returns [ 5, 6, 7, 8, 9 ]
+
+
+// let arr = [2 , 3 , 4 , 6 , 8];
+
+// // P.S. - multiply the array by 2 and return only those elements those are greater than 10
+
+// brr = arr.map((element,index,array)=>{
+//     return element*2;
+// }).filter((element,index,array)=>{
+//     return element>10;
+// })
+
+// console.log(brr);

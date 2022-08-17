@@ -333,7 +333,7 @@
 
 // Automatic updation using splice()
 
-const months = ["Jan","march","April","June","July"];
+// const months = ["Jan","march","April","June","July"];
 
 // Lets update march -> March
 
@@ -357,4 +357,31 @@ const months = ["Jan","march","April","June","July"];
 //     console.log(b);
 // }
 
+// *******************************************
+// map() , reduce() and filter()      methods
 
+// const myArray = [1, 4 , 3 , 8 , 2];
+// console.log(myArray);
+
+// let newArray = myArray.map((element,index,array)=>{
+//     return element+5;
+// })
+
+// console.log(newArray);
+
+
+
+// myArray.forEach((element,index,array)=>{
+//     console.log(element+1);                          // revised foreach
+// })
+
+
+// let arr = [25,36,49,64,81];
+
+// // to find out the square roots of the elements in the given array
+
+// let sqrt = arr.map((element , index , array)=>{
+//     return element**0.5;
+// });
+
+// console.log(sqrt);            // returns [ 5, 6, 7, 8, 9 ]

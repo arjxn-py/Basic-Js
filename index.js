@@ -309,3 +309,52 @@
 // let a = animals.unshift("chicken");
 // console.log(animals);
 // console.log(a);             // returns the length of the updated array
+
+
+// *************splice() method*************
+// splice() takes 3 arguments
+//  splice(index+1 , no. of elements to be deleted , elements to be added)
+
+// const months = ["Jan","march","April","June","July"];
+
+// Adding an element at last index
+// // months.splice(5,0,"Dec");
+// a = months.splice(months.length,0,"Dec");
+// console.log(months);        // returns [ 'Jan', 'march', 'April', 'June', 'July', 'Dec' ]
+
+// splice returns an array of deleted elements
+// console.log(a);             // will return [] because no element was deleted
+
+
+// b = months.splice(5,1)          // will pass only two arguments if only want to delete an element
+// console.log(months);            // returns [ 'Jan', 'march', 'April', 'June', 'July' ]
+// console.log(b);                 // returns [ 'Dec' ]
+
+
+// Automatic updation using splice()
+
+const months = ["Jan","march","April","June","July"];
+
+// Lets update march -> March
+
+// a = months.indexOf("march");
+// if (a != -1) {
+//     b = months.splice(a,1,"March")
+//     console.log(months);
+//     console.log(b);
+// }else{
+//     return "No such data Found";
+// }
+
+
+
+// Lets delete June from the array
+
+// a = months.indexOf("June");
+// if (a != -1) {
+//     b = months.splice(a,1);
+//     console.log(months);
+//     console.log(b);
+// }
+
+

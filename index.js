@@ -398,3 +398,21 @@
 // })
 
 // console.log(brr);
+
+
+
+
+// // ***************** reduce()  method ********************
+
+
+// There are many applications of reduce() method but mainly it is used to decompose a 2D or 3D array into a single dimensional array.
+
+// reduce() takes 4 arguments i.e. reduce(Accumulator , element , index , array)
+
+// let arr = [ 2 , 4 , 7 , 5 , 3];
+
+// let sum = arr.reduce((accumulator , element , index , array)=>{
+//     return accumulator+=element;
+// })
+
+// console.log(sum);

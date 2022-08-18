@@ -438,6 +438,56 @@
 //     return element<=50;                                  // filtered elements comparing with 50
 // }).reduce((accumulator,element,index,array)=>{                   
 //     return accumulator+=element;                         // added all those filtered elements
-// })
+// }, 100)                                                  // also gave an initial value as 100
 
 // console.log(total);
+
+
+// How to flatten an array?     How to decompose an array to 1D?
+
+// Defining a 2D array or a nested array or an array inside an array
+
+
+// let pairs = [["papa","mummy"],["beta","beti"],["bhai","behen"]];
+// console.log(pairs);
+
+// let flat = pairs.reduce((accumulator,element,index,array)=>{
+//     return accumulator.concat(element);
+// })
+
+// console.log(flat);                                      // returns [ 'papa', 'mummy', 'beta', 'beti', 'bhai', 'behen' ]
+
+// lets try on a 3D array 
+
+// let arr = [[["a","z"],["b","y"]] , [["c","x"],["d","w"]] , [["e","v"],["f","u"]]]
+// // console.log(arr);                   // returns [
+//                                     //         [ [ 'a', 'z' ], [ 'b', 'y' ] ],
+//                                     //         [ [ 'c', 'x' ], [ 'd', 'w' ] ],
+//                                     //         [ [ 'e', 'v' ], [ 'f', 'u' ] ]
+//                                     //         ]
+
+// let flat1 = arr.reduce((accumulator,element,index,array)=>{
+//             a = accumulator.concat(element);
+//             return a;   // returns [
+//                         //     [ 'a', 'z' ],
+//                         //     [ 'b', 'y' ],
+//                         //     [ 'c', 'x' ],
+//                         //     [ 'd', 'w' ],
+//                         //     [ 'e', 'v' ],
+//                         //     [ 'f', 'u' ]
+//                         // ]
+              
+// })                      
+
+// // Multi reduce methode used
+// // First 3D was converted to 2D and then 2D to 1D
+
+// let flat2 = a.reduce((accumulator,element,index,array)=>{               
+//     return accumulator.concat(element);
+// });
+
+// console.log(flat2);              // prints [
+//                                  //           'a', 'z', 'b', 'y',
+//                                  //           'c', 'x', 'd', 'w',
+//                                  //           'e', 'v', 'f', 'u'
+//                                  //       ]

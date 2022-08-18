@@ -519,7 +519,7 @@
 
 // finding a string inside a string (returns a single index number)
 
-let str = "The name of college is Cluster Innovation Centre";
+// let str = "The name of college is Cluster Innovation Centre";
 // let a = str.indexOf("Cluster")
 // console.log(a);                // returns 23
 
@@ -534,3 +534,29 @@ let str = "The name of college is Cluster Innovation Centre";
 
 // let a = str.search("Cluster");
 // console.log(a);                 // also returns 23 but cannot take multi arguments as from where to start
+
+
+// ********* Extracting String Parts from String *********
+// we have 3 methods : slice(start,end) , substring(start,end) , substr(start,length)
+
+
+// slice()
+
+// let str = "Cluster Innovation Centre"
+// console.log(str.slice(0,6));   // returns Cluste
+// console.log(str.slice(0,-2));  // returns full string -2 elements
+
+
+// substring()      it doesn't support negative indices
+
+// let str = "Cluster Innovation Centre";
+
+// console.log(str.substring(0,6));       // returns Cluste
+// console.log(str.substring(0,-2));      // returns NOTHING
+
+// substr()         it takes second argument as length and is quite similar to the upper two but it is feasible if we want to extract a part of string from very start or end
+
+// let clg = "Cluster Innovation Centre";
+// console.log(clg.substr(0,4));       // returns Clus                     i.e. starts from 0 and returns accoring to length = 4
+// console.log(clg.substr(4));         // returns ter Innovation Centre    i.e. takes start as 4 and takes length as infinity
+// console.log(clg.substr(-4));        // returns ntre                     i.e. returns the last 4 elements and negative index was used

@@ -415,4 +415,29 @@
 //     return accumulator+=element;
 // })
 
-// console.log(sum);
+// console.log(sum);                    // returns 21
+
+// Along with these 4 arguments we can also define the initial value of the accumulator to work with
+
+// let arr = [ 2 , 4 , 7 , 5 , 3];
+
+// total = arr.reduce((accumulator,element,index,array)=>{
+//     return accumulator+=element;
+// },100)                                  // defined the initial value as 100
+
+// console.log(total);                     // returns 121
+
+
+// Let's do some more chaining
+
+// let arr = [ 2 , 4 , 7 , 5 , 3];                          // defined an array
+
+// let total = arr.map((element,index,array)=>{                 
+//     return element*10;                                   // used map() to multiply each element by 10
+// }).filter((element,index,array)=>{
+//     return element<=50;                                  // filtered elements comparing with 50
+// }).reduce((accumulator,element,index,array)=>{                   
+//     return accumulator+=element;                         // added all those filtered elements
+// })
+
+// console.log(total);

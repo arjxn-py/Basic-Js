@@ -515,3 +515,22 @@
 
 // let clg = 'Cluster "Innovation" Centre';
 // console.log(clg);                                //returns Cluster "Innovation" Centre
+
+
+// finding a string inside a string (returns a single index number)
+
+let str = "The name of college is Cluster Innovation Centre";
+// let a = str.indexOf("Cluster")
+// console.log(a);                // returns 23
+
+// let a = str.indexOf("Cluster",24);
+// console.log(a);                 // returns -1 as we are starting the search from 24 index.
+
+
+// let a = str.lastIndexOf("e");
+// console.log(a);               // returns 47   i.e. From last
+
+// search()  about same as indexof()
+
+// let a = str.search("Cluster");
+// console.log(a);                 // also returns 23 but cannot take multi arguments as from where to start

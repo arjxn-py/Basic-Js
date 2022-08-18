@@ -491,3 +491,27 @@
 //                                  //           'c', 'x', 'd', 'w',
 //                                  //           'e', 'v', 'f', 'u'
 //                                  //       ]
+
+
+
+
+
+
+// *************************** STRINGS ********************************
+
+// let name = "Arjun Verma"
+// console.log(name.length);      // returns 11  contains space too
+// let mysurname = new String("Verma");
+// console.log(mysurname);             // returns [String: 'Verma']
+
+// Escape Character   ---  \ is an escape character
+
+// let clg = "Cluster "Innovation" Centre"      //returns error
+// let clg = "Cluster \"Innovation\" Centre"
+// console.log(clg);                               //returns Cluster "Innovation" Centre
+
+
+// also we can use alternate quotes 
+
+// let clg = 'Cluster "Innovation" Centre';
+// console.log(clg);                                //returns Cluster "Innovation" Centre

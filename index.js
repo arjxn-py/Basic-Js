@@ -560,3 +560,17 @@
 // console.log(clg.substr(0,4));       // returns Clus                     i.e. starts from 0 and returns accoring to length = 4
 // console.log(clg.substr(4));         // returns ter Innovation Centre    i.e. takes start as 4 and takes length as infinity
 // console.log(clg.substr(-4));        // returns ntre                     i.e. returns the last 4 elements and negative index was used
+
+
+// ************** Replacing String Content *************
+
+// replace() method
+// let str = "Cluster Innovation Center Center"
+// let a = str.replace("Center","Centre");
+// console.log(a);                        // returns Cluster Innovation Centre Center
+
+// Lets try replaceAll()                    successful
+
+// let str = "Cluster Innovation Center Center"
+// let a = str.replaceAll("Center","Centre");
+// console.log(a);                        // returns Cluster Innovation Centre Centre  

@@ -623,3 +623,27 @@
 
 // d = `${a} with the surname ${b}`
 // console.log(d);                                     // returns Arjun with the surname Verma
+
+
+
+// // trim()
+// let a = "    Arjun                     "
+// console.log(a.trim());                              // returns Arjun without whitespaces
+// let b = "     Arjun     Verma     "
+// console.log(b.trim());                              // returns \Arjun     Verma\  and doesn't remove spaces from the middle
+
+
+// Converting String into an Array       using      split()
+// split(w.r.t what you want to split)
+
+// let str = "Cluster Innovation Centre";
+// console.log(str.split("")); // returns [
+                            //     'C', 'l', 'u', 's', 't', 'e',
+                            //     'r', ' ', 'I', 'n', 'n', 'o',
+                            //     'v', 'a', 't', 'i', 'o', 'n',
+                            //     ' ', 'C', 'e', 'n', 't', 'r',
+                            //     'e'
+                            //   ]
+
+// console.log(str.split(" "));   // returns [ 'Cluster', 'Innovation', 'Centre' ]
+  

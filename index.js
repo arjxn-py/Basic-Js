@@ -574,3 +574,28 @@
 // let str = "Cluster Innovation Center Center"
 // let a = str.replaceAll("Center","Centre");
 // console.log(a);                        // returns Cluster Innovation Centre Centre  
+
+// // ********************** Extracting String Characters **********************
+// // charAt()  ...  charCodeAt()   ...  Property Index : []
+
+
+// // ****** charAt() ******
+// str = "Cluster Innovation Centre";
+// a = str.charAt(5);                   // returns character at specified index
+// console.log(a);                     //returns e
+
+
+// // ****** charCodeAt() ******
+// str = "Cluster Innovation Centre";
+// a = str.charCodeAt(5);                   // returns unicode of the character at specified index
+// console.log(a);                          // returns 101
+
+// // Return the unicode of last character of a String
+// str = "Arjun Verma";
+// console.log(str.charCodeAt(str.length-1));     // returns 97
+
+// // Property Access in a string []
+
+// let str = "Arjun Verma";
+// console.log(str[0]);                // returns A
+// console.log(str[1]);                // returns r

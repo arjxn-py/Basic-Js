@@ -599,3 +599,27 @@
 // let str = "Arjun Verma";
 // console.log(str[0]);                // returns A
 // console.log(str[1]);                // returns r
+
+// // ************************ Other Useful Methods With Strings ****************************
+
+//    toUpperCase()   &    toLowerCase()
+
+// let str = "Cluster Innovation Centre";
+// console.log(str.toUpperCase());                 // returns CLUSTER INNOVATION CENTRE
+// console.log(str.toLowerCase());                 // returns cluster innovation centre
+
+// concat() method
+
+// let a = "Arjun";
+// let b = "Verma";
+
+// console.log(a.concat(b));                           // returns ArjunVerma
+// console.log(a.concat(" ",b));                       // returns Arjun Verma
+
+// Note : It is better to use ECMA script i.e. `...` (backslash)
+
+// c = `${a} ${b}`
+// console.log(c);                                     // returns Arjun Verma
+
+// d = `${a} with the surname ${b}`
+// console.log(d);                                     // returns Arjun with the surname Verma

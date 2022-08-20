@@ -663,3 +663,58 @@
 
 // Note : Doesn't Require Object
 // console.log(Date.now());                    // returns 1660993390858   (Milliseconds from 1 Jan 1970 (AMAZING))
+
+
+
+// creating date object with parameters 
+// Date(year,month,day,hours,minutes,seconds,milliseconds)
+
+// let a = new Date(2022);
+// console.log(a.toLocaleString());            // returns 1/1/1970, 5:30:02 AM
+// // Did not considered argument as year but milliseconds and so returned unexpected date as per milliseconds passed.
+
+// passing month
+// let b = new Date(2022,7)
+// console.log(b.toLocaleString());            // returns 8/1/2022, 12:00:00 AM
+// // returned 1 Aug 2021 as year and month was passed and Note: month[0-11].
+
+// passing day
+// let c = new Date(2022,7,20);
+// console.log(c.toLocaleString());            // returns 8/20/2022, 12:00:00 AM
+
+// passing hour
+// let d = new Date(2022,8,20,5);
+// console.log(d.toLocaleString());            // returns 9/20/2022, 5:00:00 AM
+
+// passing minutes
+// let e = new Date(2022,8,20,5,5)
+// console.log(e.toLocaleString());            // returns 9/20/2022, 5:05:00 AM
+
+// passing seconds
+// let f = new Date(2022,8,20,5,5,5)
+// console.log(f.toLocaleString());            // returns 9/20/2022, 5:05:05 AM
+
+// passing milliseconds                         all seven arguments
+// let g = new Date(2022,8,20,5,5,5,5)
+// console.log(g.toLocaleString());            // returns 9/20/2022, 5:05:05 AM
+
+
+// Creating Date object with datestring
+// let a = new Date("October 17 2020");
+// console.log(a.toLocaleString());            // returns 10/17/2020, 12:00:00 AM
+
+// let a = new Date("20 Au 2021");
+// console.log(a);                             // returns Invalid Date 
+
+// let a = new Date("20 Aug 2022  11:11:11");
+// console.log(a);                             // returns 2022-08-20T05:41:11.000Z
+// console.log(a.toLocaleString());            // returns 8/20/2022, 11:11:11 AM
+
+
+// creating objects only with milliseconds
+
+// let a = new Date(0);
+// console.log(a.toLocaleString());            // returns 1/1/1970, 5:30:00 AM
+
+// let b = new Date(1660996757035);
+// console.log(b.toLocaleString());            // returns 8/20/2022, 5:29:17 PM

@@ -539,7 +539,6 @@
 // ********* Extracting String Parts from String *********
 // we have 3 methods : slice(start,end) , substring(start,end) , substr(start,length)
 
-
 // slice()
 
 // let str = "Cluster Innovation Centre"
@@ -644,6 +643,23 @@
                             //     ' ', 'C', 'e', 'n', 't', 'r',
                             //     'e'
                             //   ]
-
 // console.log(str.split(" "));   // returns [ 'Cluster', 'Innovation', 'Centre' ]
   
+
+
+// ********************* Date & Time in Javascript ***********************
+
+// we need to create date and time object in order to get access to platform independent date and time
+// Note: These Date & Time are subjected after 1 Jan 1970 only.
+
+// creating date object as -  new Date()
+// It takes maximum 7 arguments - Date(year,month,day,hours,minutes,seconds,milliseconds)
+
+// let myDate = new Date();
+// console.log(myDate);                        // return 2022-08-20T10:58:47.817Z
+// console.log(myDate.toLocaleString());       // return 8/20/2022, 4:28:47 PM
+// console.log(myDate.toString());             // return Sat Aug 20 2022 16:30:08 GMT+0530 (India Standard Time)
+
+
+// Note : Doesn't Require Object
+// console.log(Date.now());                    // returns 1660993390858   (Milliseconds from 1 Jan 1970 (AMAZING))

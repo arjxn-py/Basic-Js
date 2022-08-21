@@ -718,3 +718,34 @@
 
 // let b = new Date(1660996757035);
 // console.log(b.toLocaleString());            // returns 8/20/2022, 5:29:17 PM
+
+
+// ********* Some methods of Date *********             getters & setters
+
+
+// getters in Date() object
+
+// let today = new Date();                        // without parameters it consider today's date
+
+// console.log(today.toLocaleString());        // return 8/20/2022, 6:07:40 PM
+// console.log(today.getFullYear());           // return 2022
+// console.log(today.getMonth());              // return 7
+// console.log(today.getDate());               // return 20
+// console.log(today.getDay());                // return 6
+
+
+
+// setters in Date() object
+// returns milliseconds
+
+// let today = new Date();
+// let a = today.setFullYear(2022);
+// let b = today.setMonth(4);
+// let c = today.setDate(4);
+// let d = today.toLocaleString();
+
+
+// console.log(a);                             // returns 1661063910610
+// console.log(b);                             // returns 1653115110610
+// console.log(c);                             // returns 1651646310610
+// console.log(d.toLocaleString());            // returns 5/4/2022, 12:08:30 PM  (The date we setted in a , b & c)

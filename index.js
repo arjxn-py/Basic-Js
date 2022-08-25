@@ -749,3 +749,29 @@
 // console.log(b);                             // returns 1653115110610
 // console.log(c);                             // returns 1651646310610
 // console.log(d.toLocaleString());            // returns 5/4/2022, 12:08:30 PM  (The date we setted in a , b & c)
+
+
+
+// ********* Some methods of Time *********             getters & setters
+
+
+// let time = new Date();                      // Date() object instance is same for both date and time thing
+
+// getters in Date() object for time
+
+// console.log(time.toLocaleString());                     // returns 8/21/2022, 12:26:26 PM
+// console.log(time.getTime());                            // returns 1661064986802
+// console.log(time.getHours());                           // returns 12
+// console.log(time.getMinutes());                         // returns 26
+// console.log(time.getSeconds());                         // returns 26
+// console.log(time.getMilliseconds());                    // returns 802
+
+
+// setters in Date() object for time
+
+let time = new Date();
+
+
+
+
+

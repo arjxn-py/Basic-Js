@@ -775,4 +775,11 @@
 // console.log(time.setSeconds(5));                 // returns 1661384105966
 // console.log(time.setMilliseconds(5));            // returns 1661384105005
 
+// Basic Date to String Methods
+
+// let d = new Date();
+
+// console.log(d.toLocaleDateString());        // returns 8/25/2022
+// console.log(d.toLocaleTimeString());        // returns 8:47:27 PM
+// console.log(d.toLocaleString());            // returns 8/25/2022, 8:47:27 PM
            

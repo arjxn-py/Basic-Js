@@ -769,9 +769,10 @@
 
 // setters in Date() object for time
 
-let time = new Date();
+// let time = new Date();                          
+// console.log(time.setHours(5));                   // returns 1661384237966  
+// console.log(time.setMinutes(5));                 // returns 1661384117966
+// console.log(time.setSeconds(5));                 // returns 1661384105966
+// console.log(time.setMilliseconds(5));            // returns 1661384105005
 
-
-
-
-
+           

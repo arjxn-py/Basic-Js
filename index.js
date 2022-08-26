@@ -900,6 +900,89 @@
 
 
 
+// **********************************************************
+// *************** Math Object in Javascript ****************
+// **********************************************************
 
 
+
+
+
+
+
+// console.log(Math.PI);           // returns 3.141592653589793
+// console.log(Math.LN10);         // returns 2.302585092994046
+// console.log(Math.LN2);          // returns 0.6931471805599453
+// console.log(Math.SQRT1_2);      // returns 0.7071067811865476
+// console.log(Math.SQRT2);        // returns 1.4142135623730951
+
+
+// *** round() method in Math Object
+// rounds a number to its nearest integer
+
+// let a = 16.345678;
+// console.log(Math.round(a));         // returns 16
+// let b = 16.876577;
+// console.log((Math.round(b)));       // returns 17
+
+
+// *** pow(value , raise to the power) method in Math
+// console.log(2**3);                  // returns 8
+// console.log(Math.pow(2,3));         // returns 8
+
+
+
+// *** sqrt() method
+// console.log(Math.sqrt(81));         // returns 9
+
+
+// *** abs() to get the absolute value of any number i.e. positive value
+
+// console.log(Math.abs(65));          // returns 65
+// console.log(Math.abs(-65));         // returns 65
+// console.log(Math.abs(-76.6));       // returns 76.6
+// console.log(Math.abs(4-8));         // returns 4
+
+// *** ceil() and floor() and their comparison with round()
+
+// ceil() always returns one incremented value if a number have a very minute decimal part.
+// floor() always returns the number before the decimal.
+// console.log(Math.ceil(5.1));        // returns 6
+// console.log(Math.floor(5.1));       // returns 5
+// console.log(Math.round(5.1));       // returns 5
+// console.log(Math.ceil(5.5));        // returns 6
+// console.log(Math.floor(5.5));       // returns 5
+// console.log(Math.round(5.5));       // returns 6
+// console.log(Math.ceil(5.6));        // returns 6
+// console.log(Math.floor(5.6));       // returns 5
+// console.log(Math.round(5.6));       // returns 6
+
+
+// *** but opposite with negative numbers
+
+// console.log(Math.ceil(-5.5));       // returns -5
+// console.log(Math.floor(-5.5));      // returns -6
+// console.log(Math.round(-5.5));      // returns -5
+
+
+// *** min() and max()
+
+// console.log(Math.min(100,23,45,56,23,-42,1));       // returns -42
+// console.log(Math.max(100,23,45,56,23,-42,1));       // returns 100
+
+
+// *** random() in math object           ***IMPORTANT***
+// console.log(Math.random());                     // returns any randum number 0.03793165200654158
+
+// console.log(Math.floor(Math.random()*10));      // returns any number 0-9
+// console.log(Math.floor(Math.random()*100));     // returns any number 0-99
+// console.log(Math.ceil(Math.random()*10))        // returns any number 1-10
+
+
+// *** trunc() method
+// simply returns the part before decimal of a number
+
+// console.log(Math.trunc(57.56));                 // returns 57
+// console.log(Math.trunc(-56.97));                // returns -56
+// console.log(Math.trunc(23.006));                // returns 23
 
